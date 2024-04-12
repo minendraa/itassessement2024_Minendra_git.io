@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 5px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">Contact Us</h1><br>
+
+    <nav><br><hr><hr>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="REbikes.html">Royal Enfield</a></li>
+            <li><a href="jawa.html">Jawa</a></li>
+            <li><a href="HD.html">Harley Davidson</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul><hr><hr>
+    </nav><br>
+    <header>
+    </header>
+
+    <main>
+        <section id="contact">
+            <form action="mailto:your@email.com" method="post" enctype="text/plain">
+                <label for="name"><p style="color: red;">Name:</p></label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email"><p style="color: red;">Email:</p>:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message"><p style="color: red;">Message:</p>:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+               <br> <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    
+    </footer>
+</body>
+</html>
